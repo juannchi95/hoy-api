@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: HOY Api Test
+  server:
+    port: 8080
+  swagger:
+    enabled: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  web:
+    locale: en_US
+  
+    
